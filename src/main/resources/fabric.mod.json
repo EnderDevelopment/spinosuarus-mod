@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "spinosuarusmod",
+  "version": "${version}",
+  "name": "Spinosuarus Mod",
+  "description": "A mod that adds a Spinosuarus that swims, spawns near rivers, and hunts fish.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.sigma67skibidi41boy.spinosuarusmod.SpinosuarusMod"
+    ]
+  },
+  "mixins": [
+    "spinosuarusmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.4"
+  }
+}
